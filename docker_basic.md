@@ -51,7 +51,7 @@
 ## Chia sẻ dữ liệu host-container hoặc container-container
 
 - Chia sẻ dữ liệu giữa host-container:
-> docker run -it -v <thư mục trên máy host>:<thư mục trên container> <ID image>
+> docker run -it -v <thư mục trên máy host>:<thư mục trên container> <ID-image>
 
 - Chia sẻ dữ liệu container-container
 > docker run -it --name <name-container B> --volumes-from <name-container A> <image-name>
