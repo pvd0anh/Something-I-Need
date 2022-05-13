@@ -119,7 +119,7 @@ if ! shopt -oq posix; then
 fi
 
 
-
+# git clone https://github.com/magicmonty/bash-git-prompt.git ~/.bash-git-prompt --depth=1
 GIT_PROMPT_ONLY_IN_REPO=1 # Use the default prompt when not in a git repo.
 GIT_PROMPT_FETCH_REMOTE_STATUS=0 # Avoid fetching remote status
 # GIT_PROMPT_SHOW_UPSTREAM=0 # Don't display upstream tracking branch
